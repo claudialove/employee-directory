@@ -1,10 +1,10 @@
 //these are like require statements
 import React from "react";
-import dirContainer from "./components/dirContainer";
+import DirContainer from "./components/DirContainer";
 
 //this function loads the app container
 //the app container is the parent to all components
 function App() {
-  return <dirContainer/>;
+  return <DirContainer/>;
 }
 export default App;
