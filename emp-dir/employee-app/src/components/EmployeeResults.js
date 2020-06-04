@@ -12,7 +12,7 @@ const EmployeeResults = (props) => {
             </tr>
             {props.employees.map(employees =>
                 (   <tr>
-                    <img src={employees.picture.thumbnail}/>
+                    <img src={employees.picture.thumbnail} alt="employee pic"/>
                     <td>{employees.name.first} {employees.name.last}</td>
                     <td>{employees.phone}</td>
                     <td>{employees.email}</td>
